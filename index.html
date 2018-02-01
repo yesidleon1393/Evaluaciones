@@ -9,15 +9,46 @@
 
 		<title>concierto</title>
 	</head>
-<form autocomplete="on" name="Formulario 1">
+<form autocomplete="on" name="Formulario1">
 	<fieldset>
-		<legend>FORMULARIO</legend>
-		<label for="Nombre">Nombre</label>
-		<input type="text">
+	<legend>Formulario</legend>
+<h1 align="center">REGISTRO EN NUESTRA TIENDA</h1>
+<label for="nombre">Nombre de usuario</label></br>
+<input type="text" name="usuario" id="user" placeholder="Ej: Jorge">
+<p>
+<label for="email">Email</label><br/>
+<input type="text" name="email" id="email" placeholder="Ej: jorge@gmail.com">
+</p>
+<p>
+<label for="edad">Edad</label><br/>
+<input type="number" name="edad" id="edad" placeholder="Ej:24">
+</p>
+<p>
+<label for="genero">Género</label><br/>
+<input type="radio" name="genero" id="genero" value="masculino"> Masculino </br>
+<input type="radio" name="genero" id="genero" value="femenino"> Femenino </br>
+</p>
+<p>
+<label for="referido">Referido por:</label><br/>
+<select>
+<option value="social">Redes sociales</option>
+<option value="google">Google</option>
+<option value="web">Web</option>
+</select>
+</p>
+<p>
+	<label for="textarea">Comentarios:</label><br/>
+<textarea name="name" rows="8" cols="40"></textarea>
+</p>
+<p>
+<label for="check">Acepto los <strong>Términos y Condiciones:</strong> </label><br/>
+<input type="checkbox">
+</p>
+<p>
+<input type="submit" name="registrar" value="Registro">
+</p>
 
 	</fieldset>
 
 </form>
-<p> <h1> HOLA MUNDO </h1> </p>
-
 </html>
